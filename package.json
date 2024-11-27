@@ -12,6 +12,7 @@
   "dependencies": {
     "@element-plus/nuxt": "^1.1.0",
     "@nuxt/icon": "^1.8.2",
+    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "nuxt": "^3.14.1592",
     "vue": "latest",
