@@ -11,6 +11,9 @@ importers:
       '@element-plus/nuxt':
         specifier: ^1.1.0
         version: 1.1.0(@element-plus/icons-vue@2.3.1(vue@3.5.13(typescript@5.7.2)))(element-plus@2.8.8(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(rollup@4.27.4)
+      '@lottiefiles/dotlottie-vue':
+        specifier: ^0.5.1
+        version: 0.5.1(vue@3.5.13(typescript@5.7.2))
       '@nuxt/icon':
         specifier: ^1.8.2
         version: 1.8.2(magicast@0.3.5)(rollup@4.27.4)(vite@5.4.11(@types/node@22.9.3)(terser@5.36.0))(vue@3.5.13(typescript@5.7.2))
@@ -559,6 +562,14 @@ packages:
 
   '@kwsites/promise-deferred@1.1.1':
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
+
+  '@lottiefiles/dotlottie-vue@0.5.1':
+    resolution: {integrity: sha512-Y113nwkNgw/NugsqcKGaoyQo3LDODj/hvdcX9LVv7tpYFKwIFbVNE0yrZicGNe6fNNSic+Itb7QoqP0TtS9U+g==}
+    peerDependencies:
+      vue: ^3.3.4
+
+  '@lottiefiles/dotlottie-web@0.38.0':
+    resolution: {integrity: sha512-3ZAD1TS0NkgtZvIkrfFMTW5BSxRiXTG9UGCwqI98gdZ5UCyDVGxi898dFlhvNhE5vcl30LpxICp5AnuBWonCig==}
 
   '@mapbox/node-pre-gyp@1.0.11':
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
@@ -3970,6 +3981,13 @@ snapshots:
       - supports-color
 
   '@kwsites/promise-deferred@1.1.1': {}
+
+  '@lottiefiles/dotlottie-vue@0.5.1(vue@3.5.13(typescript@5.7.2))':
+    dependencies:
+      '@lottiefiles/dotlottie-web': 0.38.0
+      vue: 3.5.13(typescript@5.7.2)
+
+  '@lottiefiles/dotlottie-web@0.38.0': {}
 
   '@mapbox/node-pre-gyp@1.0.11':
     dependencies:

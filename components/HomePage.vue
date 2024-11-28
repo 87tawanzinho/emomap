@@ -15,5 +15,7 @@
       <ElButton> Nossa Historia </ElButton>
       <ElButton> Se Registrar </ElButton>
     </div>
+
+    <ThreeHome />
   </div>
 </template>
